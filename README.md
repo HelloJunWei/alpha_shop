@@ -11,9 +11,9 @@
 
 - Main 裡面的五個區塊 (還未撰寫換頁邏輯)
   - StepProgress
-  - DeliverAddress
-  - ShppingMethod
-  - PaymentInformation
+  - Step1-DeliverAddress
+  - Step2-ShppingMethod
+  - Step3-PaymentInformation
   - ProgressControl
 
 ### Environment Setup 環境建置
