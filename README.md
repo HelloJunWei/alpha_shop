@@ -9,12 +9,12 @@
 
 完成的元件包含：
 
-- Main 裡面的四個區塊 (還未撰寫換頁邏輯)
-  -StepProgress
-  -DeliverAddress
-  -ShppingMethod
-  -PaymentInformation
-  -ProgressControl
+- Main 裡面的五個區塊 (還未撰寫換頁邏輯)
+  - StepProgress
+  - DeliverAddress
+  - ShppingMethod
+  - PaymentInformation
+  - ProgressControl
 
 ### Environment Setup 環境建置
 
