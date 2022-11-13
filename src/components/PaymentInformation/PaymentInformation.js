@@ -18,7 +18,7 @@ export default function PaymentInformation() {
         <div className={styles.form__row__three}>
         <div className={styles.date__part}>
         <label className={styles.date}>有效期限</label>
-        <input id={styles.input__date} type="date" matInput placeholder='MM/YY' required></input>
+        <input id={styles.input__date} placeholder='MM/YY'></input>
         </div>
         <div className={styles.cvc__part}>
         <label className={styles.cvc}>CVC/ccv</label>

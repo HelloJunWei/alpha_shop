@@ -10,7 +10,8 @@ export default function ShppingMethod() {
 
         <div className={styles.common__deliver}>
           <div className={styles.left__part}>
-          <div className={styles.circle__container__choose}></div>
+          {/* <div className={styles.circle__container__choose}></div> */}
+          <input id="shipping-standard" type="radio" name="shipping" />
           <div className={styles.text}>
           <label>標準運送</label>
           <label>約3~7個工作天</label>
@@ -21,7 +22,8 @@ export default function ShppingMethod() {
 
         <div className={styles.dhl__deliver}>
           <div className={styles.left__part}>
-          <div className={styles.circle__container}></div>
+          {/* <div className={styles.circle__container}></div> */}
+          <input id="shipping-dhl" type="radio" name="shipping" />
           <div className={styles.text}>
           <label className={styles.text__dhl}>DHL貨運</label>
           <label>48小時內送達</label>
