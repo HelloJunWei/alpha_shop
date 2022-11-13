@@ -15,6 +15,8 @@
   - Step2-ShppingMethod
   - Step3-PaymentInformation
   - ProgressControl
+  
+- Cart 區塊 
 
 ### Environment Setup 環境建置
 
