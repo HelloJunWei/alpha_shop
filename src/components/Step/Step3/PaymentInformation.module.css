@@ -1,0 +1,77 @@
+.PaymentInformation__panel {
+  width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  /* outline: 1px solid red; */
+}
+
+.form__row,
+.form__row__three {
+  width: 100%;
+  margin-bottom: 24px;
+  display: flex;
+  /* margin-left: 30px; */
+  /* outline: 1px solid red; */
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form__row__three {
+  /* outline: 1px solid violet; */
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.name,
+.card__number,
+.date,
+.cvc {
+  color: #808080;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+input {
+  color: #4a4a4a;
+}
+
+#input__name,
+#input__number {
+  width: 350px;
+}
+
+[type="date"] {
+  cursor: pointer;
+  color: #747474;
+  height: 19px;
+}
+
+#input__date,
+#input__cvc {
+  width: 255px;
+}
+
+.date__part,
+.cvc__part {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cvc__part {
+  margin-left: 30px;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
