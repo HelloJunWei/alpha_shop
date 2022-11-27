@@ -1,9 +1,11 @@
 import React from 'react'
-import StepProgress from './StepProgress/StepProgress'
-import DeliverAddress from './DeliverAddress/DeliverAddress'
-import ShppingMethod from './ShppingMethod/ShppingMethod'
-import PaymentInformation from './PaymentInformation/PaymentInformation'
-import ProgressControl from './ProgressControl/ProgressControl'
+import StepProgress from './Step/StepProgress/StepProgress'
+import DeliverAddress from './Step/Step1/DeliverAddress'
+import ShppingMethod from './Step/Step2/ShppingMethod'
+import PaymentInformation from './Step/Step3/PaymentInformation'
+import ProgressControl from './Step/ProgressControl/ProgressControl'
+import ProductProvider from '../contexts/CartContext'
+
 import './Main.css'
 import Cart from './Cart/Cart'
 
@@ -24,7 +26,11 @@ export default function Main() {
             <ProgressControl />
           </section>
           {/* 購物車區*/}
-            <Cart />
+          <ProductProvider>
+            <div>
+              <Cart />
+            </div>
+          </ProductProvider>
         </div>
       </main>
     </div>
